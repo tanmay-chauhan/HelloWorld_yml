@@ -1,0 +1,5 @@
+version: '3'
+services:
+  hello-world:
+    image: python:3.9
+    command: python -c "print('Hello, World!')"
